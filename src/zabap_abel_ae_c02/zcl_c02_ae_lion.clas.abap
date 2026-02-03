@@ -1,0 +1,28 @@
+CLASS zcl_c02_ae_lion DEFINITION INHERITING FROM zcl_c02_ae_animal
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    METHODS:
+      walk REDEFINITION,
+      eat.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_c02_ae_lion IMPLEMENTATION.
+
+  METHOD walk.
+    rv_walk = 'The lion walks'.
+  ENDMETHOD.
+
+  METHOD eat.
+
+  ENDMETHOD.
+
+ENDCLASS.
