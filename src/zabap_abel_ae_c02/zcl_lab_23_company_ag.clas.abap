@@ -1,0 +1,15 @@
+CLASS zcl_lab_23_company_ag DEFINITION
+  PUBLIC
+  CREATE PUBLIC
+  GLOBAL FRIENDS zcl_lab_24_partner_ag.
+
+  PRIVATE SECTION.
+    DATA capital TYPE string VALUE '1000000'.
+
+ENDCLASS.
+
+
+
+CLASS zcl_lab_23_company_ag IMPLEMENTATION.
+ENDCLASS.
+
