@@ -8,6 +8,7 @@ CLASS zcl_c02_ae_heritance_2 DEFINITION INHERITING FROM zcl_c02_ae_heritance_1
     METHODS:
       constructor,
       get_architecture REDEFINITION.
+      "set_memory REDEFINITION.
 
   PROTECTED SECTION.
   PRIVATE SECTION.

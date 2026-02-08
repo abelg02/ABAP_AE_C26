@@ -10,7 +10,9 @@ PUBLIC
 
     METHODS:
       constructor,
-      get_architecture RETURNING VALUE(rv_architecture) TYPE string.
+      get_architecture RETURNING VALUE(rv_architecture) TYPE string,
+      set_memory FINAL
+        IMPORTING iv_attr TYPE string.
 
   PROTECTED SECTION.
     "DATA: architecture TYPE string VALUE '64 bits'.
@@ -31,4 +33,7 @@ CLASS zcl_c02_ae_heritance_1 IMPLEMENTATION.
     me->architecture = '64 bits'.
   ENDMETHOD.
 
-ENDCLASS.
+  METHOD set_memory.
+  ENDMETHOD.
+
+  ENDCLASS.

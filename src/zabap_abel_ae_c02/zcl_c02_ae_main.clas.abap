@@ -29,7 +29,7 @@ CLASS zcl_c02_ae_main IMPLEMENTATION.
     lo_heritance->architecture = '32 bits'.
 
 * Narrowing Cast --> up cast
-    data(lo_animal) = new zcl_c02_ae_animal( ).
+    DATA(lo_animal) = NEW zcl_c02_ae_animal( ).
     DATA(lo_lion) = NEW zcl_c02_ae_lion( ).
 
     out->write( lo_animal->walk( ) ).
@@ -49,6 +49,11 @@ CLASS zcl_c02_ae_main IMPLEMENTATION.
     out->write( 'Widening (Down cast)' ).
     out->write( lo_animal->walk( ) ).
     out->write( lo_lion->walk( ) ).
+
+* Instances encapsulation
+    DATA(lo_encap) = NEW zcl_c02_ae_friends_her(  ).
+
+    lo_encap->get_friend_data(  ).
 
   ENDMETHOD.
 
