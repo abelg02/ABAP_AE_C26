@@ -1,0 +1,20 @@
+CLASS zcl_c02_ae_abstract_child_2 DEFINITION
+PUBLIC
+  INHERITING FROM zcl_c02_ae_abstract_child
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS: abstract_method REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_c02_ae_abstract_child_2 IMPLEMENTATION.
+  METHOD abstract_method.
+
+  ENDMETHOD.
+
+ENDCLASS.
