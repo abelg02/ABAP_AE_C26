@@ -1,0 +1,19 @@
+CLASS zcl_c02_ae_airplane DEFINITION ABSTRACT
+  PUBLIC
+  "FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    METHODS:
+      airplane_type ABSTRACT
+        RETURNING VALUE(rv_airplane_type) TYPE string.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_c02_ae_airplane IMPLEMENTATION.
+ENDCLASS.
