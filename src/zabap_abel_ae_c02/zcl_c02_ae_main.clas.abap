@@ -64,21 +64,6 @@ CLASS zcl_c02_ae_main IMPLEMENTATION.
 
     out->write( lo_interf->zif_c02_ae_02~get_customer( '000004' ) ).
 
-* Polymorphism
-    DATA: lt_airplanes TYPE STANDARD TABLE OF REF TO zcl_c02_ae_airplane,
-          lo_airplane  TYPE REF TO zcl_c02_ae_airplane,
-          lo_cargo     TYPE REF TO zcl_c02_ae_plane,
-          lo_pass      TYPE REF TO zcl_c02_ae_pass_plane.
-
-    lo_cargo = NEW #( ).
-    APPEND lo_cargo TO lt_airplanes.
-
-    lo_pass = NEW #( ).
-    APPEND lo_pass TO lt_airplanes.
-
-    LOOP AT lt_airplanes INTO lo_airplane.
-      out->write( lo_airplane->airplane_type( ) ).
-    ENDLOOP.
 
   ENDMETHOD.
 

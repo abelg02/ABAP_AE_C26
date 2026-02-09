@@ -1,4 +1,4 @@
-CLASS zcl_c02_ae_pass_plane DEFINITION INHERITING FROM zcl_c02_ae_airplane
+CLASS zcl_c03_ae_pass_plane DEFINITION INHERITING FROM zcl_c03_ae_airplane
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_pass_plane IMPLEMENTATION.
+CLASS zcl_c03_ae_pass_plane IMPLEMENTATION.
 
   METHOD airplane_type.
     rv_airplane_type = 'Passenger Plane'.
