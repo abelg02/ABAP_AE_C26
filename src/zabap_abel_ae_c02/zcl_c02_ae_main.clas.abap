@@ -55,6 +55,15 @@ CLASS zcl_c02_ae_main IMPLEMENTATION.
 
     lo_encap->get_friend_data(  ).
 
+* Interfaces
+    DATA(lo_interf) = NEW zcl_c02_ae_interfaces(  ).
+
+    lo_interf->zif_c02_ae_01~set_conn_id( '0001' ).
+
+    out->write( lo_interf->zif_c02_ae_01~get_conn_id(  ) ).
+
+    out->write( lo_interf->zif_c02_ae_02~get_customer( '000004' ) ).
+
   ENDMETHOD.
 
 ENDCLASS.
