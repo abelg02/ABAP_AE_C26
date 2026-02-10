@@ -1,0 +1,13 @@
+CLASS zcl_lab_38_prod_price_ag DEFINITION
+  PUBLIC
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+    DATA price TYPE i.
+    PROTECTED SECTION.
+ENDCLASS.
+
+
+CLASS zcl_lab_38_prod_price_ag IMPLEMENTATION.
+ENDCLASS.
+

@@ -1,0 +1,18 @@
+CLASS zcl_lab_31_org_france_ag DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_lab_29_organization_ag
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+    METHODS get_location REDEFINITION.
+  PROTECTED SECTION.
+ENDCLASS.
+
+
+CLASS zcl_lab_31_org_france_ag IMPLEMENTATION.
+  METHOD get_location.
+    rv_location = 'France'.
+  ENDMETHOD.
+ENDCLASS.
+
