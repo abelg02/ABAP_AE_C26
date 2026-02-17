@@ -8,7 +8,9 @@ CLASS zcl_lab_exec_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_exec_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_EXEC_AG IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -73,6 +75,4 @@ CLASS zcl_lab_exec_ag IMPLEMENTATION.
     out->write( lv_hq ).
 
   ENDMETHOD.
-
 ENDCLASS.
-

@@ -11,11 +11,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_18_animal_ag IMPLEMENTATION.
+CLASS ZCL_LAB_18_ANIMAL_AG IMPLEMENTATION.
+
 
   METHOD walk.
     rv_walk = 'The animal walks'.
   ENDMETHOD.
-
 ENDCLASS.
-

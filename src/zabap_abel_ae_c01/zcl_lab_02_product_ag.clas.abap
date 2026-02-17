@@ -17,15 +17,15 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_02_product_ag IMPLEMENTATION.
+CLASS ZCL_LAB_02_PRODUCT_AG IMPLEMENTATION.
+
 
   METHOD set_product.
     product = iv_product.
   ENDMETHOD.
 
+
   METHOD set_creationdate.
     creation_date = iv_creation_date.
   ENDMETHOD.
-
 ENDCLASS.
-

@@ -11,7 +11,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_friends_child IMPLEMENTATION.
+CLASS ZCL_C02_AE_FRIENDS_CHILD IMPLEMENTATION.
+
 
   METHOD get_private_data.
 
@@ -26,5 +27,4 @@ CLASS zcl_c02_ae_friends_child IMPLEMENTATION.
    lo_friend->warehouse = 'Child Warehouse'.
 
   ENDMETHOD.
-
 ENDCLASS.

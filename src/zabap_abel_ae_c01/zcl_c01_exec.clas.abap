@@ -9,7 +9,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_c01_exec IMPLEMENTATION.
+CLASS ZCL_C01_EXEC IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -67,6 +68,4 @@ CLASS zcl_c01_exec IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.
-

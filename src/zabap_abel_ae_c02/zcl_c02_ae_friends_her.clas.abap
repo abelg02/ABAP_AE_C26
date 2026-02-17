@@ -15,7 +15,9 @@ PUBLIC
 ENDCLASS.
 
 
-CLASS zcl_c02_ae_friends_her IMPLEMENTATION.
+
+CLASS ZCL_C02_AE_FRIENDS_HER IMPLEMENTATION.
+
 
 METHOD get_friend_data.
 
@@ -26,5 +28,4 @@ METHOD get_friend_data.
     lo_friend->warehouse = 'Main Warehouse'.
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -13,7 +13,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_05_flight_ag IMPLEMENTATION.
+CLASS ZCL_LAB_05_FLIGHT_AG IMPLEMENTATION.
+
 
   METHOD check_flight.
 
@@ -28,6 +29,4 @@ CLASS zcl_lab_05_flight_ag IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.
-

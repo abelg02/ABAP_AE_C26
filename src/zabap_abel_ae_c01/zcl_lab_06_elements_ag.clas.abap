@@ -27,13 +27,12 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_06_elements_ag IMPLEMENTATION.
+CLASS ZCL_LAB_06_ELEMENTS_AG IMPLEMENTATION.
+
 
   METHOD set_object.
     ms_object-class     = iv_class.
     ms_object-instance  = iv_instance.
     ms_object-reference = iv_reference.
   ENDMETHOD.
-
 ENDCLASS.
-

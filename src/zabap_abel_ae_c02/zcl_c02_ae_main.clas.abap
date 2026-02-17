@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_main IMPLEMENTATION.
+CLASS ZCL_C02_AE_MAIN IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     DATA(lo_instance) = NEW zcl_c02_ae_instances(  ).
@@ -66,5 +68,4 @@ CLASS zcl_c02_ae_main IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

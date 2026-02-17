@@ -19,11 +19,13 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_48_administrative_dep IMPLEMENTATION.
+CLASS ZCL_LAB_48_ADMINISTRATIVE_DEP IMPLEMENTATION.
+
 
   METHOD constructor.
     emp_id = iv_id.
   ENDMETHOD.
+
 
   METHOD notify_employee.
 
@@ -31,6 +33,4 @@ CLASS zcl_lab_48_administrative_dep IMPLEMENTATION.
     RAISE EVENT payroll_paid.
 
   ENDMETHOD.
-
 ENDCLASS.
-

@@ -15,11 +15,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_47_customer_service IMPLEMENTATION.
+CLASS ZCL_LAB_47_CUSTOMER_SERVICE IMPLEMENTATION.
+
 
   METHOD on_new_call.
     log = |Incoming call: { ev_phone_number }|.
   ENDMETHOD.
-
 ENDCLASS.
-

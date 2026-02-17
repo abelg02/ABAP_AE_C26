@@ -19,7 +19,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_08_work_record_ag IMPLEMENTATION.
+CLASS ZCL_LAB_08_WORK_RECORD_AG IMPLEMENTATION.
+
 
   METHOD open_new_record.
     date       = iv_date.
@@ -27,6 +28,4 @@ CLASS zcl_lab_08_work_record_ag IMPLEMENTATION.
     last_name  = iv_last_name.
     surname    = iv_surname.
   ENDMETHOD.
-
 ENDCLASS.
-

@@ -19,14 +19,15 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_instances IMPLEMENTATION.
+CLASS ZCL_C02_AE_INSTANCES IMPLEMENTATION.
+
 
   METHOD class_constructor.
     log = |{ log } static constructor -->|.
   ENDMETHOD.
 
+
   METHOD constructor.
     log = |{ log } instance constructor -->|.
   ENDMETHOD.
-
 ENDCLASS.

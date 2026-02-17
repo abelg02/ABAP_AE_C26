@@ -23,17 +23,19 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_heritance_1 IMPLEMENTATION.
+CLASS ZCL_C02_AE_HERITANCE_1 IMPLEMENTATION.
+
 
   METHOD get_architecture.
     rv_architecture = me->architecture.
   ENDMETHOD.
 
+
   METHOD constructor.
     me->architecture = '64 bits'.
   ENDMETHOD.
 
+
   METHOD set_memory.
   ENDMETHOD.
-
-  ENDCLASS.
+ENDCLASS.

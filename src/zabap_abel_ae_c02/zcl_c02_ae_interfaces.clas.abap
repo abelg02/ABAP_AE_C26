@@ -18,7 +18,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_interfaces IMPLEMENTATION.
+CLASS ZCL_C02_AE_INTERFACES IMPLEMENTATION.
+
 
   METHOD get_conn_id.
 
@@ -26,11 +27,13 @@ CLASS zcl_c02_ae_interfaces IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD set_conn_id.
 
     me->zif_c02_ae_01~conn_id = iv_conn_id.
 
   ENDMETHOD.
+
 
   METHOD get_customer.
 
@@ -41,8 +44,8 @@ CLASS zcl_c02_ae_interfaces IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD zif_c02_ae_03~get_airports.
 
   ENDMETHOD.
-
 ENDCLASS.

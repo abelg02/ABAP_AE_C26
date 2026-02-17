@@ -123,7 +123,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_01_ejec_ag IMPLEMENTATION.
+CLASS ZCL_LAB_01_EJEC_AG IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -175,5 +176,4 @@ CLASS zcl_lab_01_ejec_ag IMPLEMENTATION.
       iv_last_name  = 'Pérez' ).
 
   ENDMETHOD.
-
 ENDCLASS.

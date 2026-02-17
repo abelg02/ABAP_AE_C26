@@ -10,9 +10,11 @@ CLASS zcl_lab_40_actual_budget_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_40_actual_budget_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_40_ACTUAL_BUDGET_AG IMPLEMENTATION.
+
+
   METHOD get_budget.
     rv_text = 'Actual budget: 100000 EUR'.
   ENDMETHOD.
 ENDCLASS.
-

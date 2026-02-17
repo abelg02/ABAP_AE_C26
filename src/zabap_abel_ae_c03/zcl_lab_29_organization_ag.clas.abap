@@ -84,9 +84,11 @@ CLASS zcl_lab_29_organization_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_29_organization_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_29_ORGANIZATION_AG IMPLEMENTATION.
+
+
   METHOD get_location.
     rv_location = 'Generic Organization'.
   ENDMETHOD.
 ENDCLASS.
-

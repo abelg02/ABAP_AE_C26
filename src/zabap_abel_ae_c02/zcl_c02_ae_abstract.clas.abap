@@ -21,9 +21,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_abstract IMPLEMENTATION.
+CLASS ZCL_C02_AE_ABSTRACT IMPLEMENTATION.
+
+
   METHOD merchandise_output.
     rv_merchandise = 'Merchandise output'.
   ENDMETHOD.
-
 ENDCLASS.

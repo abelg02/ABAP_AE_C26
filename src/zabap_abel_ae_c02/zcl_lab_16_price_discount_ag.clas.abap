@@ -12,13 +12,12 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_16_price_discount_ag IMPLEMENTATION.
+CLASS ZCL_LAB_16_PRICE_DISCOUNT_AG IMPLEMENTATION.
+
 
   METHOD add_price.
     DATA(ls) = is_flight.
     ls-price = ls-price * '0.90'.
     APPEND ls TO mt_flights.
   ENDMETHOD.
-
 ENDCLASS.
-

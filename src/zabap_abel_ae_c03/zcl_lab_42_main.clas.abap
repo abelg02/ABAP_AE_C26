@@ -9,7 +9,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_42_main IMPLEMENTATION.
+CLASS ZCL_LAB_42_MAIN IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -59,6 +60,4 @@ CLASS zcl_lab_42_main IMPLEMENTATION.
     out->write( lo_emp->log ).
 
   ENDMETHOD.
-
 ENDCLASS.
-

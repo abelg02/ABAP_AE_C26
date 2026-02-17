@@ -10,9 +10,11 @@ CLASS zcl_lab_30_org_germany_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_30_org_germany_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_30_ORG_GERMANY_AG IMPLEMENTATION.
+
+
   METHOD get_location.
     rv_location = 'Germany'.
   ENDMETHOD.
 ENDCLASS.
-

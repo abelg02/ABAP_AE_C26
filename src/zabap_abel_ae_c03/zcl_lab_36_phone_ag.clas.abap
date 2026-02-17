@@ -11,13 +11,16 @@ CLASS zcl_lab_36_phone_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_36_phone_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_36_PHONE_AG IMPLEMENTATION.
+
+
   METHOD constructor.
     screen = io_screen.
   ENDMETHOD.
+
 
   METHOD get_screen_type.
     rv_type = screen->get_type( ).
   ENDMETHOD.
 ENDCLASS.
-

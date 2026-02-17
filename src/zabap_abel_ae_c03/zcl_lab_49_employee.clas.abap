@@ -14,11 +14,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_49_employee IMPLEMENTATION.
+CLASS ZCL_LAB_49_EMPLOYEE IMPLEMENTATION.
+
 
   METHOD on_payroll_paid.
     log = 'Payroll received'.
   ENDMETHOD.
-
 ENDCLASS.
-

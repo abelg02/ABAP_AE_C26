@@ -16,7 +16,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_heritance_2 IMPLEMENTATION.
+CLASS ZCL_C02_AE_HERITANCE_2 IMPLEMENTATION.
+
 
   METHOD get_architecture.
 
@@ -31,6 +32,7 @@ CLASS zcl_c02_ae_heritance_2 IMPLEMENTATION.
     super->get_architecture( ).
   ENDMETHOD.
 
+
   METHOD constructor.
 
     super->constructor( ).
@@ -38,5 +40,4 @@ CLASS zcl_c02_ae_heritance_2 IMPLEMENTATION.
     "me->architecture = '32 bits'.
 
   ENDMETHOD.
-
 ENDCLASS.

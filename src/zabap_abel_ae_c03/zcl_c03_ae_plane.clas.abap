@@ -12,10 +12,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_c03_ae_plane IMPLEMENTATION.
+CLASS ZCL_C03_AE_PLANE IMPLEMENTATION.
+
 
   METHOD airplane_type.
     rv_airplane_type = 'Cargo plane'.
   ENDMETHOD.
-
 ENDCLASS.

@@ -120,11 +120,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_11_system_ag IMPLEMENTATION.
+CLASS ZCL_LAB_11_SYSTEM_AG IMPLEMENTATION.
+
 
   METHOD get_architecture.
     ev_architecture = architecture.
   ENDMETHOD.
-
 ENDCLASS.
-

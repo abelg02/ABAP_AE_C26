@@ -11,11 +11,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_19_lion_ag IMPLEMENTATION.
+CLASS ZCL_LAB_19_LION_AG IMPLEMENTATION.
+
 
   METHOD walk.
     rv_walk = 'The lion walks'.
   ENDMETHOD.
-
 ENDCLASS.
-

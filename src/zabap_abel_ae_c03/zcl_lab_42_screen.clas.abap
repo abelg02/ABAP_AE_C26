@@ -102,11 +102,13 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_42_screen IMPLEMENTATION.
+CLASS ZCL_LAB_42_SCREEN IMPLEMENTATION.
+
 
   METHOD constructor.
     screen_type = iv_type.
   ENDMETHOD.
+
 
   METHOD element_selected.
     RAISE EVENT touch_screen
@@ -114,6 +116,4 @@ CLASS zcl_lab_42_screen IMPLEMENTATION.
         ev_x = iv_x
         ev_y = iv_y.
   ENDMETHOD.
-
 ENDCLASS.
-

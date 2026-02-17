@@ -11,13 +11,16 @@ CLASS zcl_lab_41_organization_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_41_organization_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_41_ORGANIZATION_AG IMPLEMENTATION.
+
+
   METHOD set_headquarters.
     headquarters = iv_hq.
   ENDMETHOD.
+
 
   METHOD get_headquarters.
     rv_hq = headquarters.
   ENDMETHOD.
 ENDCLASS.
-

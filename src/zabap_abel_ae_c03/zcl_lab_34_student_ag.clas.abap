@@ -11,13 +11,16 @@ CLASS zcl_lab_34_student_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_34_student_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_34_STUDENT_AG IMPLEMENTATION.
+
+
   METHOD set_name.
     name = iv_name.
   ENDMETHOD.
+
 
   METHOD get_name.
     rv_name = name.
   ENDMETHOD.
 ENDCLASS.
-

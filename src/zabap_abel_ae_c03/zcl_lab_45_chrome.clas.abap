@@ -14,11 +14,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_45_chrome IMPLEMENTATION.
+CLASS ZCL_LAB_45_CHROME IMPLEMENTATION.
+
 
   METHOD on_close_window.
     log = 'Window closed'.
   ENDMETHOD.
-
 ENDCLASS.
-

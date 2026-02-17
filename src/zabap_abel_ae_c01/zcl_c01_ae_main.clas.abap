@@ -51,24 +51,23 @@ ENDCLASS.
 
 
 
+CLASS ZCL_C01_AE_MAIN IMPLEMENTATION.
 
-CLASS zcl_c01_ae_main IMPLEMENTATION.
-
-  METHOD set_attr.
-    me->attr1 = attr1.
-  ENDMETHOD.
-
-  METHOD get_attr.
-    attr1 = me->attr1.
-  ENDMETHOD.
 
   METHOD set_attr2.
     attr2 = iv_attr2.
   ENDMETHOD.
 
+
   METHOD get_attr2.
     ev_attr2 = attr2.
   ENDMETHOD.
+
+
+  METHOD get_attr.
+    attr1 = me->attr1.
+  ENDMETHOD.
+
 
   METHOD get_flights.
 
@@ -94,6 +93,7 @@ CLASS zcl_c01_ae_main IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD get_flight.
 
     SELECT SINGLE FROM /dmo/travel
@@ -105,6 +105,8 @@ CLASS zcl_c01_ae_main IMPLEMENTATION.
 
   ENDMETHOD.
 
+
+  METHOD set_attr.
+    me->attr1 = attr1.
+  ENDMETHOD.
 ENDCLASS.
-
-

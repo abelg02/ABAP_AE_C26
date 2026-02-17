@@ -15,14 +15,15 @@ ENDCLASS.
 
 
 
-CLASS zcl_c02_ae_lion IMPLEMENTATION.
+CLASS ZCL_C02_AE_LION IMPLEMENTATION.
+
 
   METHOD walk.
     rv_walk = 'The lion walks'.
   ENDMETHOD.
 
+
   METHOD eat.
 
   ENDMETHOD.
-
 ENDCLASS.

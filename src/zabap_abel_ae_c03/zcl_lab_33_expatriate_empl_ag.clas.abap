@@ -8,9 +8,11 @@ CLASS zcl_lab_33_expatriate_empl_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_33_expatriate_empl_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_33_EXPATRIATE_EMPL_AG IMPLEMENTATION.
+
+
   METHOD zif_lab_04_employee_ag~get_employees_count.
     rv_count = 35.
   ENDMETHOD.
 ENDCLASS.
-

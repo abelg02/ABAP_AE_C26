@@ -11,11 +11,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_22_student_ag IMPLEMENTATION.
+CLASS ZCL_LAB_22_STUDENT_AG IMPLEMENTATION.
+
 
   METHOD assign_student.
     DATA(lo_classroom) = NEW zcl_lab_21_classroom_ag( ).
   ENDMETHOD.
-
 ENDCLASS.
-

@@ -15,13 +15,12 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_43_navigation IMPLEMENTATION.
+CLASS ZCL_LAB_43_NAVIGATION IMPLEMENTATION.
+
 
   METHOD on_touch_screen.
 
     log = |Type:{ sender->screen_type } X:{ ev_x } Y:{ ev_y }|.
 
   ENDMETHOD.
-
 ENDCLASS.
-

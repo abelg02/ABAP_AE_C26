@@ -12,14 +12,15 @@ ENDCLASS.
 
 
 
-CLASS zcl_c03_ae_pass_plane IMPLEMENTATION.
+CLASS ZCL_C03_AE_PASS_PLANE IMPLEMENTATION.
+
 
   METHOD airplane_type.
     rv_airplane_type = 'Passenger Plane'.
   ENDMETHOD.
 
+
   METHOD discount.
 
   ENDMETHOD.
-
 ENDCLASS.

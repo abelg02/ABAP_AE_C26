@@ -9,9 +9,11 @@ CLASS zcl_lab_35_college_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_35_college_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_35_COLLEGE_AG IMPLEMENTATION.
+
+
   METHOD enroll_student.
     student_ref = io_student.
   ENDMETHOD.
 ENDCLASS.
-

@@ -15,15 +15,15 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_09_account_ag IMPLEMENTATION.
+CLASS ZCL_LAB_09_ACCOUNT_AG IMPLEMENTATION.
+
 
   METHOD set_iban.
     me->iban = iv_iban.
   ENDMETHOD.
 
+
   METHOD get_iban.
     rv_iban = me->iban.
   ENDMETHOD.
-
 ENDCLASS.
-

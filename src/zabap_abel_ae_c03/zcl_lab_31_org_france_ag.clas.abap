@@ -10,9 +10,11 @@ CLASS zcl_lab_31_org_france_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_31_org_france_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_31_ORG_FRANCE_AG IMPLEMENTATION.
+
+
   METHOD get_location.
     rv_location = 'France'.
   ENDMETHOD.
 ENDCLASS.
-

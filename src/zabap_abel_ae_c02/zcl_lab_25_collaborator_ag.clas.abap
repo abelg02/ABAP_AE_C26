@@ -13,11 +13,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_lab_25_collaborator_ag IMPLEMENTATION.
+CLASS ZCL_LAB_25_COLLABORATOR_AG IMPLEMENTATION.
+
 
   METHOD get_capital.
     rv_capital = me->get_company_capital( ).
   ENDMETHOD.
-
 ENDCLASS.
-

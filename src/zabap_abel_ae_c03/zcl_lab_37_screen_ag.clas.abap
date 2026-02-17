@@ -11,13 +11,16 @@ CLASS zcl_lab_37_screen_ag DEFINITION
 ENDCLASS.
 
 
-CLASS zcl_lab_37_screen_ag IMPLEMENTATION.
+
+CLASS ZCL_LAB_37_SCREEN_AG IMPLEMENTATION.
+
+
   METHOD set_type.
     screen_type = iv_type.
   ENDMETHOD.
+
 
   METHOD get_type.
     rv_type = screen_type.
   ENDMETHOD.
 ENDCLASS.
-
